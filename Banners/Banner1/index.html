@@ -1,0 +1,51 @@
+﻿	<!-- 
+<script type="text/javascript" src="wpscripts/jquery.js"></script>
+Banner 1	
+
+-->
+
+
+
+																		
+<div>
+<a href='http://neuromama.com' target="_blank">
+ 	<img id="Bnr1-1" src="Banners/Banner1/wpimages/Bnr1-1.png" alt="" style="position: absolute; top: 0; left: 0;" />
+ 	<img id="Bnr1-2" src="Banners/Banner1/wpimages/Bnr1-2.png" alt="" style="position: absolute; top: 0; left: 0;">
+	<img id="Bnr1Ovr1" src="Banners/Banner1/wpimages/Bnr1Ovr1.png" alt="" style="position: absolute; top: 0; left: 0;" />
+	<img id="Bnr1Ovr2" src="Banners/Banner1/wpimages/Bnr1Ovr2.png" alt="" style="position: absolute; top: 0; left: 0;">
+	<img id="Bnr1Ovr3" src="Banners/Banner1/wpimages/Bnr1Ovr3.png" alt="" style="position: absolute; top: 0; left: 0;">
+	<img id="Bnr2Ovr1" src="Banners/Banner1/wpimages/Bnr2Ovr1.png" alt="" style="position: absolute; top: 0; left: 0;">
+	<img id="Bnr2Ovr2" src="Banners/Banner1/wpimages/Bnr2Ovr2.png" alt="" style="position: absolute; top: 0; left: 0;">
+	<img id="Bnr2Ovr3" src="Banners/Banner1/wpimages/Bnr2Ovr3.png" alt="" style="position: absolute; top: 0; left: 0;">
+	
+	<img id="Bnr3-1" src="Banners/Banner1/wpimages/Bnr3-1.png" alt="" style="position: absolute; top: 0; left: 0;">
+</a>
+		<script>
+		$('#Bnr1-2').hide();
+		$('#Bnr1Ovr1').hide();		$('#Bnr1Ovr2').hide();
+		$('#Bnr1Ovr3').hide();		$('#Bnr2Ovr1').hide();
+		$('#Bnr2Ovr2').hide();		$('#Bnr2Ovr3').hide();
+		$('#Bnr3-1').hide();
+	  
+	$(function(){
+	   	var images=['#Bnr1Ovr1','#Bnr1Ovr2','#Bnr1Ovr3','#Bnr2Ovr1','#Bnr2Ovr2','#Bnr2Ovr3','#Bnr3-1'];
+        imgIx = 0;
+
+		(function nextImage(){
+			if(imgIx == 3){
+				$('#Bnr1-1').fadeOut(400);
+				$('#Bnr1-2').fadeIn(500);
+			}else if(imgIx == 7){
+				$('#Bnr1-1').fadeIn(160);
+				$('#Bnr1-2').fadeOut(100);
+			}
+			
+			if(imgIx == 6){
+				$(images[imgIx++] || images[imgIx = 0, imgIx++]).hide().fadeIn(800).delay(18000).fadeOut(1200, nextImage);
+			}else{
+				$(images[imgIx++] || images[imgIx = 0, imgIx++]).hide().fadeIn(800).delay(3000).fadeOut(1500, nextImage);
+			}
+		})();
+	});
+	</script>	
+</div>

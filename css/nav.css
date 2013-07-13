@@ -1,0 +1,80 @@
+/* Top Nav and Book Gui Accordion */
+
+/* Clear Fixes */
+.clearfloat {clear:both; height:0px; font-size:1px; line-height:0px;}
+
+
+/* -- IE6 link fix for links & forms based on PNG Fix --*/
+* html .linkfix {position:relative;} 
+
+div#HeaderNavigation{ margin: 0px 0px 0px 0px; width:1017px; height: 67px;top:4px; left:17px;float: left; position:relative; }
+
+/* Make Reservation Button */
+a.btn-neuinf {float:left; width:113px; height:70px; background:url(../images/button/off/1.png) no-repeat; text-indent: -1000px; overflow: hidden; display: block; padding:0; margin-left:0px; border: none; }
+a.btn-neuinf:visited {background:url(../images/button/off/1.png) no-repeat;}
+a.btn-neuinf:hover{background:url(../images/button/on/1.png) no-repeat;}
+a.btn-neuinf.active {background:url(../images/button/on/1.png) no-repeat;}
+
+a.btn-neuvid {float:left; width:113px; height:70px; background:url(../images/button/off/2.png) no-repeat; text-indent: -1000px; overflow: hidden; display: block; padding:0; margin-left:0; border: none; }
+a.btn-neuvid:visited {background:url(../images/button/off/2.png) no-repeat;}
+a.btn-neuvid:hover{background:url(../images/button/on/2.png) no-repeat;}
+a.btn-neuvid.active {background:url(../images/button/on/2.png) no-repeat;}
+
+a.btn-neutab1 {float:left; width:113px; height:70px;   background:url(../images/button/off/3.png) no-repeat; text-indent: -1000px; overflow: hidden; display: block; padding:0; margin:0; border: none; }
+a.btn-neutab1:visited {background:url(../images/button/off/3.png) no-repeat;}
+a.btn-neutab1:hover{background:url(../images/button/on/3.png) no-repeat;}
+a.btn-neutab1.active {background:url(../images/button/on/3.png) no-repeat;}
+
+a.btn-neutab2 {float:left; width:113px; height:70px; background:url(../images/button/off/4.png) no-repeat; text-indent: -1000px; overflow: hidden; display: block; padding:0; margin:0; border: none; }
+a.btn-neutab2:visited {background:url(../images/button/off/4.png) no-repeat;}
+a.btn-neutab2:hover{background:url(../images/button/on/4.png) no-repeat;}
+a.btn-neutab2.active {background:url(../images/button/on/4.png) no-repeat;}
+
+a.btn-neutab3 {float:left; width:113px; height:70px; background:url(../images/button/off/5.png) no-repeat; text-indent: -1000px; overflow: hidden; display: block; padding:0; margin:0; border: none; }
+a.btn-neutab3:visited {background:url(../images/button/off/5.png) no-repeat;}
+a.btn-neutab3:hover{background:url(../images/button/on/5.png) no-repeat;}
+a.btn-neutab3.active {background:url(../images/button/on/5.png) no-repeat;}
+
+a.btn-neusmart1 {float:left; width:113px; height:70px; background:url(../images/button/off/6.png) no-repeat; text-indent: -1000px; overflow: hidden; display: block; padding:0; margin:0; border: none; }
+a.btn-neusmart1:visited {background:url(../images/button/off/6.png) no-repeat;}
+a.btn-neusmart1:hover{background:url(../images/button/on/6.png) no-repeat;}
+a.btn-neusmart1.active {background:url(../images/button/on/6.png) no-repeat;}
+
+a.btn-neusmart2 {float:left; width:113px; height:70px; background:url(../images/button/off/7.png) no-repeat; text-indent: -1000px; overflow: hidden; display: block; padding:0; margin:0; border: none; }
+a.btn-neusmart2:visited {background:url(../images/button/off/7.png) no-repeat;}
+a.btn-neusmart2:hover{background:url(../images/button/on/7.png) no-repeat;}
+a.btn-neusmart2.active {background:url(../images/button/on/7.png) no-repeat;}
+
+a.btn-neuvac1 {float:left; width:113px; height:70px; background:url(../images/button/off/8.png) no-repeat; text-indent: -1000px; overflow: hidden; display: block; padding:0; margin:0; border: none; }
+a.btn-neuvac1:visited {background:url(../images/button/off/8.png) no-repeat;}
+a.btn-neuvac1:hover{background:url(../images/button/on/8.png) no-repeat;}
+a.btn-neuvac1.active {background:url(../images/button/on/8.png) no-repeat;}
+
+a.btn-neuvac2 {float:left; width:113px; height:70px; background:url(../images/button/off/9.png) no-repeat; text-indent: -1000px; overflow: hidden; display: block; padding:0; margin:0; border: none; }
+a.btn-neuvac2:visited {background:url(../images/button/off/9.png) no-repeat;}
+a.btn-neuvac2:hover{background:url(../images/button/on/9.png) no-repeat;}
+a.btn-neuvac2.active {background:url(../images/button/on/9.png) no-repeat;}
+
+/* Drop Down */
+#nav li {float:left; display:block; position:relative; z-index:30; font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-weight: bold; text-transform: uppercase;}
+
+/* this is the parent menu */
+#nav li a {display:block;}
+#nav li a:hover {}
+
+/* you can make a different style for default selected value */
+#nav a.selected {color:#f00;}
+
+/* submenu, it's hidden by default */
+#nav ul {position:absolute; top:68px; left:-3px; display:none; margin:0; padding:0; list-style:none;}
+*:first-child+html #nav ul {width:160px;}
+
+#nav ul li {width:160px; float:left; text-align:center; padding:0; background:#000; filter:alpha(opacity=70); -moz-opacity: .8; -khtml-opacity: .8; opacity: .8;}
+ul#nav li {padding:0;}
+/* display block will make the link fill the whole area of LI */
+#nav ul a {display:block; padding: 0px 0px; color: #C5A88D; text-decoration:none;}
+#nav ul a:hover {color:#fff;}
+
+/* fix ie6 small issue */
+* html #nav ul {margin:0 0 0 -2px;}
+* html #nav ul li a {position:relative;}

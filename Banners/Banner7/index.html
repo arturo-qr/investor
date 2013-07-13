@@ -1,0 +1,81 @@
+﻿
+<script src="Banners/Banner7/wpscripts/jquery.hoverizr.js"></script>
+
+																			<!-- Banner -->
+<div style="position: absolute; overflow:Hidden; width: 303px; height: 305px;">
+<a href='http://neuromama.com' target="_blank">
+	<img id="Bnr1-1" src="Banners/Banner7/wpimages/Bnr1-1.png" alt="" style="position: absolute; top: 0; left: 0;" />
+	<img id="Bnr1-2" src="Banners/Banner7/wpimages/Bnr1-1.png" alt="" style="position: absolute; top: 0; left: 0;" />
+</a>
+
+		<script>
+		$('#Bnr1-1');
+		$('#Bnr1-2').hide();//.fadeIn(900).animate({left: '+100px'},100,"swing");
+
+		
+	$(function loopingImg(){
+	   	//var images=['#Bnr1Ovr1','#Bnr1Ovr2','#Bnr1Ovr3','#Bnr1Ovr4','#Bnr1Ovr5','#Bnr1Ovr6'];
+        //imgIx = 0;
+			var tiempolectura=7000;
+			var tiempotransicion=4000;
+			$('#Bnr1-1').animate({left: '0px'},0,"linear");
+			$('#Bnr1-2').fadeIn(0).animate({left: '+303px'},0,"linear");
+			$('#Bnr1-1').delay(tiempolectura).animate({left: '-303px'},tiempotransicion,"linear");
+			$('#Bnr1-1').delay(tiempolectura).animate({left: '-606px'},tiempotransicion,"linear");
+			$('#Bnr1-1').delay(tiempolectura).animate({left: '-908px'},tiempotransicion,"linear");
+			
+			//$('#Bnr1-1').delay(tiempolectura).animate({left: '-1211px'},tiempotransicion,"linear");
+			$('#Bnr1-2').delay((tiempolectura*3)+(tiempotransicion*2)).animate({left: '0px'},tiempotransicion,"linear").fadeOut(0);
+			loopingImg();
+			
+		
+		
+
+	})();
+	</script>	
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div style="position: relative; overflow:Hidden; width: 871px; height: 300px;">
+
+ 	<img id="Bnr3-1" src="wpimages/Bnr2-1.png" alt="" style="position: absolute; top: 0; left: 0;" />
+ 	<img id="Bnr3Ovr2" src="wpimages/Bnr3Ovr2.png" alt="" style="position: absolute; top: 0; left: 0;">
+		<script>
+		//$('#Bnr2-1').hide();
+		//$('#Bnr3Ovr2').hide();
+	  
+	$(function(){
+		
+			$('#Bnr2-1').fadeIn(400).animate({"left": "-=300px"},18000,"linear").delay(4000).fadeOut(400);
+			$('#Bnr3Ovr2').fadeIn(600).delay(22000).fadeOut(400);
+		
+	})();
+
+		</script>	
+</div> -->
+
+
+
+
+
+
+
+
+</html>

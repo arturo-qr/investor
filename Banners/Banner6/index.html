@@ -1,0 +1,76 @@
+﻿
+<script src="Banners/Banner5/wpscripts/jquery.hoverizr.js"></script>
+																			<!-- Banner -->
+<div style="float:right;position: relative;width:191px; height: 871px;">
+<a href='http://neuromama.com' target="_blank">
+	<img id="Bnr1-1" src="Banners/Banner6/wpimages/Bnr1-1.jpg" alt="" style="position: absolute; top: 0; left: 0;">
+	<img id="Bnr1Ovr1" src="Banners/Banner6/wpimages/Bnr1Ovr1.png" alt="" style="position: absolute; top: 0; left: 0;">
+	<img id="Bnr1Ovr2" src="Banners/Banner6/wpimages/Bnr1Ovr2.png" alt="" style="position: absolute; top: 0; left: 0;">
+	<img id="Bnr1Ovr3" src="Banners/Banner6/wpimages/Bnr1Ovr3.png" alt="" style="position: absolute; top: 0; left: 0;">
+	<img id="Bnr1Ovr4" src="Banners/Banner6/wpimages/Bnr1Ovr4.png" alt="" style="position: absolute; top: 0; left: 0;">
+	<img id="Bnr1Ovr5" src="Banners/Banner6/wpimages/Bnr1Ovr5.png" alt="" style="position: absolute; top: 0; left: 0;">
+	<img id="Bnr1Ovr6" src="Banners/Banner6/wpimages/Bnr1Ovr6.png" alt="" style="position: absolute; top: 0; left: 0;">
+</a>
+
+		<script>
+		$('#Bnr1-1').hide();
+		$('#Bnr1Ovr1').hide();		$('#Bnr1Ovr2').hide();
+		$('#Bnr1Ovr3').hide();		$('#Bnr1Ovr4').hide();
+		$('#Bnr1Ovr5').hide();		$('#Bnr1Ovr6').hide();
+		$('#Bnr1-1').fadeIn(400);
+
+	$(function(){
+	   	var images=['#Bnr1Ovr1','#Bnr1Ovr2','#Bnr1Ovr3','#Bnr1Ovr4','#Bnr1Ovr5','#Bnr1Ovr6'];
+        imgIx = 0;
+				
+		(function nextImage(){
+				$(images[imgIx++] || images[imgIx = 0, imgIx++]).hide().fadeIn(800).delay(4000).fadeOut(700, nextImage);
+		})();
+	})();
+	</script>	
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div style="position: relative; overflow:Hidden; width: 871px; height: 300px;">
+
+ 	<img id="Bnr3-1" src="wpimages/Bnr2-1.png" alt="" style="position: absolute; top: 0; left: 0;" />
+ 	<img id="Bnr3Ovr2" src="wpimages/Bnr3Ovr2.png" alt="" style="position: absolute; top: 0; left: 0;">
+		<script>
+		//$('#Bnr2-1').hide();
+		//$('#Bnr3Ovr2').hide();
+	  
+	$(function(){
+		
+			$('#Bnr2-1').fadeIn(400).animate({"left": "-=300px"},18000,"linear").delay(4000).fadeOut(400);
+			$('#Bnr3Ovr2').fadeIn(600).delay(22000).fadeOut(400);
+		
+	})();
+
+		</script>	
+</div> -->
+
+
+
+
+
+
+
+
+</html>

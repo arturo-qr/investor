@@ -1,0 +1,27 @@
+<!-- Banner -->
+<div style="position: relative; overflow:Hidden; width: 1015px; height: 101px;">
+
+ 	<img id="Bnr2-1" src="Banners/Banner5/wpimages/Bnr2-1.jpg" alt="" style="position: absolute; top: 0; left: 0;" />
+ 	<img id="Bnr2-2" src="Banners/Banner5/wpimages/Bnr2-2.jpg" alt="" style="position: absolute; top: 0; left: 0;" />
+ 	<img id="Bnr2-3" src="Banners/Banner5/wpimages/Bnr2-3.jpg" alt="" style="position: absolute; top: 0; left: 0;" />
+ 	<img id="Bnr2Ovr1" src="Banners/Banner5/wpimages/Bnr2Ovr1.png" alt="" style="position: absolute; top: 0; left: 0px;">
+		<script>
+		$('#Bnr2-1').hide();
+		$('#Bnr2-2').hide();
+		$('#Bnr2-3').hide();
+		$('#Bnr2Ovr1').hide().animate({top: '+115px'},0,"linear");
+		
+		var x=Math.floor((Math.random()*3)+1);
+	$(function loop(){
+			switch(x){
+				case 1:			$('#Bnr2-1').fadeIn(400);		break;
+				case 2:			$('#Bnr2-2').fadeIn(400);		break;
+				case 3:			$('#Bnr2-3').fadeIn(400);		break;
+			}			
+			$('#Bnr2Ovr1').fadeIn(4).animate({top: '-300px'},18000,"linear").delay(1000).fadeOut(300,loop).animate({top: '+100px'},0,"linear");
+			
+		
+	})();
+
+		</script>	
+</div>
