@@ -25,19 +25,27 @@
 			
 			<ul id="nav">
 			
-				<li onmouseover=painttab(1); onmouseout=unpainttab(1);><a href="#" class="btn-neuinf">Home</a>
+				<li onmouseover=painttab(1); onmouseout=unpainttab(1);><a href="index.php" class="btn-neuinf">Home</a>
 					<ul onmouseover=painttab(1); onmouseout=unpainttab(1);>
+						<li style="padding-top: 8px"><a href="index.php" >About NeuroMama</a></li>					
+						<li style="padding-top: 8px"><a href="brokers.php" >Brokers</a></li>					
+						<li style="padding-top: 8px"><a href="http://www.neuromama.com" target="_blank">NeuroMama.com</a></li>					
+						<li style="padding-top: 8px"><a href="http://fsr.neuromama.com" target="_blank">FSR Information</a></li>					
+						<li style="padding-top: 8px"><a href="http://finance.neuromama.com" target="_blank">Finance NeuroMama</a></li>					
+					    <li style="padding-top: 8px; padding-bottom: 5px;"><a href="http://neuromama.com/index.php?action=reg" target="_blank">Register to NeuroMama</a></li>
 					</ul> 				
 				</li> 
 				
 				
-				<li onmouseover=painttab(2); onmouseout=unpainttab(2);><a href="#" onclick="return false;" class="btn-neuvid">Markets</a>
+				<li onmouseover=painttab(2); onmouseout=unpainttab(2);><a href="#" onclick="return false;" class="btn-neuvid">News & Events</a>
 					<ul onmouseover=painttab(2); onmouseout=unpainttab(2);>
+					
 					</ul> 
 				</li> 
 				
 				<li onmouseover=painttab(3); onmouseout=unpainttab(3);><a href="#" onclick="return false;" class="btn-neutab1">Financial Info</a>
 					<ul onmouseover=painttab(3); onmouseout=unpainttab(3);>
+						<li style="padding-top: 8px; "><a href="PDF/8-k_update_7-11-13.pdf" target="_blank">Latest 8-K</a></li>
 						<li style="padding-top: 8px; padding-bottom: 5px;"><a href="http://finance.neuromama.com/stock_search.php?s=nero&o=su" target="_blank">Stock Information</a></li>
 					</ul> 
 				</li> 
