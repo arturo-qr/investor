@@ -68,6 +68,7 @@ div#HomeGalleryNavigation{
 	font-size: 15pt;
 	font-weight: bold;
 	color: #004660;
+
 }
 .style3{
     font-size: 12pt;
@@ -92,21 +93,25 @@ div#HomeGalleryNavigation{
 
 .clearAll{ clear: both;}
 .inner {
-	width: 995px;
+	
 	margin: 0px auto;
-	font-family: times; font-size:12pt; font-weight:900;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 20px;
 	text-align: justify;
 }
 .innerclear{
-	width: 995px;
+	
 	margin: 0px auto;
-	font-family: times; color:#404040; font-size:12pt; font-weight:900;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 20px;
 	text-align: justify;
 }
 .innerbold{
 	width: 995px;
 	margin: 0px auto;
-	font-family: times; color:#000000; font-size:13pt; font-weight:900;
+	
 	text-align: justify;
 }
 .left{
