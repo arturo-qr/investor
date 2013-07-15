@@ -65,7 +65,7 @@ div#HomeGalleryNavigation{
 	text-align: center;
 }
 .style2{
-	font-size: 14pt;
+	font-size: 15pt;
 	font-weight: bold;
 	color: #004660;
 }
@@ -94,7 +94,19 @@ div#HomeGalleryNavigation{
 .inner {
 	width: 995px;
 	margin: 0px auto;
-	font-family: times; font-size:12pt; font-weight:600;
+	font-family: times; font-size:12pt; font-weight:900;
+	text-align: justify;
+}
+.innerclear{
+	width: 995px;
+	margin: 0px auto;
+	font-family: times; color:#404040; font-size:12pt; font-weight:900;
+	text-align: justify;
+}
+.innerbold{
+	width: 995px;
+	margin: 0px auto;
+	font-family: times; color:#000000; font-size:13pt; font-weight:900;
 	text-align: justify;
 }
 .left{
@@ -742,5 +754,3 @@ height: 3px;
 clear: both;
 overflow: hidden;
 background: url(../wp-content/themes/business-news/images/line_4.gif) repeat-x;
-
- 
