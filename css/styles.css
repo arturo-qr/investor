@@ -669,14 +669,7 @@ border-color: inherit;
 	float: left;
 	padding:8px 3px 0px;
 	position:relative;
-	
-	background-color:#ffffff;
-	border:1px solid #ededed;
-	
-	-moz-border-radius:3px;
-	-webkit-border-radius:3px;
-	border-radius:3px;
-	behavior:url(js/PIE.htc);
+	background-color: transparent;
 }
 
 

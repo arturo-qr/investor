@@ -39,7 +39,10 @@
 				
 				<li onmouseover=painttab(2); onmouseout=unpainttab(2);><a href="#" onclick="return false;" class="btn-neuvid">News & Events</a>
 					<ul onmouseover=painttab(2); onmouseout=unpainttab(2);>
-					
+						<li style="padding-top: 8px"><a href="news_investopedia.php" >Investopedia</a></li>
+						<li style="padding-top: 8px"><a href="news_forex.php" >GFT Forex</a></li>
+						<li style="padding-top: 8px"><a href="news_commodities.php" >Comodities</a></li>
+						<li style="padding-top: 8px"><a href="news_ideas_s.php" >Investing Ideas & Strategies</a></li>
 					</ul> 
 				</li> 
 				
