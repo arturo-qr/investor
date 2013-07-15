@@ -38,24 +38,35 @@
 					</ul> 
 				</li> 
 				
-				
+									<!--		Market Strategies Pt1			-->
 				<li onmouseover=painttab(3); onmouseout=unpainttab(3);><a href="#" onclick="return false;" class="btn-neutab1">Business</a>
 					<ul onmouseover=painttab(3); onmouseout=unpainttab(3);>
 						<li style="padding-top: 8px; padding-bottom: 5px;"><a href="news.php?t=business" >Business News</a></li>
 					</ul> 
 				</li> 
 				
-				
+									<!--		Market Strategies Pt2			-->
 				<li onmouseover=painttab(4); onmouseout=unpainttab(4);><a href="#" onclick="return false;" class="btn-neutab2">News</a>
 					<ul onmouseover=painttab(4); onmouseout=unpainttab(4);>
-					    <li style="padding-top: 8px; padding-bottom: 5px;"><a href="news.php?t=usa" >USA</a></li>
+						<li style="padding-top: 8px"><a href="m_strategies_p1_intro.php" >Introduction</a></li>
+						<li style="padding-top: 8px"><a href="m_strategies_p1_why.php" >Why NeuroMama?</a></li>
+						<li style="padding-top: 8px"><a href="m_strategies_p1_manufacturing.php" >Manufacturing of Smartphones and others</a></li>
+						<li style="padding-top: 8px"><a href="m_strategies_p1_risk.php" >Risk-Reduction Factor</a></li>
+						<li style="padding-top: 8px"><a href="m_strategies_p1_think.php" >NeuroMama can Think</a></li>					
+						<li style="padding-top: 8px"><a href="m_strategies_p1_marketing.php" >UNIQUE Marketing Strategy</a></li>					
+					    <li style="padding-top: 8px; padding-bottom: 5px;"><a href="m_strategies_p1_acesofacts.php" >Aces of Acts</a></li>
 					</ul> 
 				</li> 
 				
-				
+
 				<li onmouseover=painttab(5); onmouseout=unpainttab(5);><a href="#" onclick="return false;" class="btn-neutab3">Tech</a>
 					<ul onmouseover=painttab(5); onmouseout=unpainttab(5);>
-						<li style="padding-top: 8px; padding-bottom: 5px;"><a href="news.php?t=tech sector" >Tech Sector</a></li>
+						<li style="padding-top: 8px;"><a href="m_strategies_p2_144.php" >144 Hours Live Entertainment Fundraiser</a></li>
+						<li style="padding-top: 8px;"><a href="m_strategies_p2_CDP.php" >Content Delivery Platform (CDP)</a></li>
+						<li style="padding-top: 8px;"><a href="m_strategies_p2_monetizing.php" >Neuromama's Monetizing Strategy</a></li>
+						<li style="padding-top: 8px;"><a href="m_strategies_p2_strategy.php" >Strategy for Mobility Advertising Sales Space</a></li>
+						<li style="padding-top: 8px;"><a href="m_strategies_p2_imagine.php" >Imagine...</a></li>
+						<li style="padding-top: 8px; padding-bottom: 5px;"><a href="m_strategies_p2_assets.php" >Entertainment Assets</a></li>
 					</ul> 
 				</li> 
 				
