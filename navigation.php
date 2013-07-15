@@ -25,28 +25,24 @@
 			
 			<ul id="nav">
 			
-				<li onmouseover=painttab(1); onmouseout=unpainttab(1);><a href="3" class="btn-neuinf">Home</a>
+				<li onmouseover=painttab(1); onmouseout=unpainttab(1);><a href="#" class="btn-neuinf">Home</a>
 					<ul onmouseover=painttab(1); onmouseout=unpainttab(1);>
-						<li style="padding-top: 8px; padding-bottom: 5px;"><a href="news.php?t=US market">US Markets</a></li>
 					</ul> 				
 				</li> 
 				
 				
 				<li onmouseover=painttab(2); onmouseout=unpainttab(2);><a href="#" onclick="return false;" class="btn-neuvid">Markets</a>
 					<ul onmouseover=painttab(2); onmouseout=unpainttab(2);>
-						<li style="padding-top: 8px; padding-bottom: 5px;"><a href="news.php?t=US market">US Markets</a></li>
 					</ul> 
 				</li> 
 				
-									<!--		Market Strategies Pt1			-->
-				<li onmouseover=painttab(3); onmouseout=unpainttab(3);><a href="#" onclick="return false;" class="btn-neutab1">Business</a>
+				<li onmouseover=painttab(3); onmouseout=unpainttab(3);><a href="#" onclick="return false;" class="btn-neutab1">Financial Info</a>
 					<ul onmouseover=painttab(3); onmouseout=unpainttab(3);>
-						<li style="padding-top: 8px; padding-bottom: 5px;"><a href="news.php?t=business" >Business News</a></li>
+						<li style="padding-top: 8px; padding-bottom: 5px;"><a href="http://finance.neuromama.com/stock_search.php?s=nero&o=su" target="_blank">Stock Information</a></li>
 					</ul> 
 				</li> 
 				
-									<!--		Market Strategies Pt2			-->
-				<li onmouseover=painttab(4); onmouseout=unpainttab(4);><a href="#" onclick="return false;" class="btn-neutab2">News</a>
+				<li onmouseover=painttab(4); onmouseout=unpainttab(4);><a href="#" onclick="return false;" class="btn-neutab2">Marketing Strategies1</a>
 					<ul onmouseover=painttab(4); onmouseout=unpainttab(4);>
 						<li style="padding-top: 8px"><a href="m_strategies_p1_intro.php" >Introduction</a></li>
 						<li style="padding-top: 8px"><a href="m_strategies_p1_why.php" >Why NeuroMama?</a></li>
@@ -59,7 +55,7 @@
 				</li> 
 				
 
-				<li onmouseover=painttab(5); onmouseout=unpainttab(5);><a href="#" onclick="return false;" class="btn-neutab3">Tech</a>
+				<li onmouseover=painttab(5); onmouseout=unpainttab(5);><a href="#" onclick="return false;" class="btn-neutab3">Marketing Strategies2</a>
 					<ul onmouseover=painttab(5); onmouseout=unpainttab(5);>
 						<li style="padding-top: 8px;"><a href="m_strategies_p2_144.php" >144 Hours Live Entertainment Fundraiser</a></li>
 						<li style="padding-top: 8px;"><a href="m_strategies_p2_CDP.php" >Content Delivery Platform (CDP)</a></li>
@@ -94,6 +90,15 @@
 				
 				
 				<li onmouseover=painttab(8); onmouseout=unpainttab(8);><a href="#" onclick="return false;" class="btn-neuvac1">Projects</a>
+					<ul onmouseover=painttab(8); onmouseout=unpainttab(8);>
+						<li style="padding-top: 8px"><a href="projects-NeuroZone.php" >NeuroZone</a></li>
+						<li style="padding-top: 8px"><a href="projects-NeuroPlatform.php" >NeuroPlatform</a></li>
+						<li style="padding-top: 8px"><a href="projects-NeuroPad-NeuroPhone.php" >NeuroPad & NeuroPhone</a></li>
+						<li style="padding-top: 8px"><a href="projects-NeuroSphere.php" >NeuroSphere</a></li>
+						<li style="padding-top: 8px"><a href="projects-NeuroWorld.php" >NeuroWorld</a></li>
+						<li style="padding-top: 8px"><a href="projects-FSR.php" >FSR</a></li>
+						<li style="padding-top: 8px; padding-bottom: 5px;"><a href="projects-IonFusion.php" >Ion Fusion</a></li>
+					</ul>
 				</li> 
 				
 				
