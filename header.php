@@ -18,7 +18,6 @@
 	<link href='http://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,300' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Orienta' rel='stylesheet' type='text/css'>
-    <link href="css/skitter.styles.css" type="text/css" media="all" rel="stylesheet" />
     <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 
@@ -73,42 +72,7 @@
 			}
 		}
 	</script>
-	<!-- Skitter JS -->
-	<script type="text/javascript" src="js/commoncode.js"></script>
-	<script type='text/javascript' language='javascript' src='wp-content/themes/skitter_js/jquery-1.6.3.min.js'></script>
-	<script type='text/javascript' language='javascript' src='wp-content/themes/skitter_js/jquery.easing.1.3.js'></script>
-	<script type='text/javascript' language='javascript' src='wp-content/themes/skitter_js/jquery.animate-colors-min.js'></script>
-	<script type='text/javascript' language='javascript' src='wp-content/themes/skitter_js/jquery.skitter.min.js'></script>
-	<script type='text/javascript' language='javascript'>
-            $(document).ready(function() {
-                $('.box').hide();
-                $('.fcattribution').hide();
-                $('.ad_sponsor').hide();
-                $('.poweredby').hide();
-                $('.fc-getquote1').hide();
-                $('.fcadunithide').hide();
-                $('.p_news a img').hide();
-                $('.box_skitter_large').skitter({
-                    theme: 'clean',
-                    numbers_align: 'center',
-                    progressbar: true, 
-                    dots: false, 
-                    preview: true
-                });
-                
-            });
-            $(document).load(function() {
-                $('.p_news a img').hide();
-                
-                
-            });
-        </script>
-        <link rel="stylesheet" href="results/calendar/public/css/metallic.css" type="text/css">
-        <link rel="stylesheet" href="results/calendar/examples/public/css/calendar.css" type="text/css">
-        <link type="text/css" rel="stylesheet" href="results/calendar/examples/libraries/syntaxhighlighter/public/css/shCoreDefault.css">
-        <script type="text/javascript" src="results/calendar/public/javascript/zebra_datepicker.js"></script>
-        <script type="text/javascript" src="results/calendar/examples/public/javascript/core.js"></script>
-
+	
         <script type="text/javascript">
             SyntaxHighlighter.defaults['toolbar'] = false;
             SyntaxHighlighter.all();

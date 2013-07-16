@@ -112,15 +112,14 @@
 					</ul>
 				</li> 
 				
-				
 				<li onmouseover=painttab(9); onmouseout=unpainttab(9);><a href="http://contacts.neuromama.com" target="_blank" class="btn-neuvac2">Contact Us</a>
 				</li> 
 			</ul>
 		</div>
 		<div id="SubHeader">
-			<span style="top:10px;font-family: 'Didact Gothic',sans-serif; font-size: 12px; color: #fff"><strong>Fewer duplicates, more accurate returns, faster results, Frequent Searcher Rewards for gift certificates. Join now!</strong></span>
+			<span style="top:10px;font-family: 'Didact Gothic',sans-serif; font-size: 12px; color: #fff"><strong>Fewer duplicates, more accurate returns, faster results, Frequent Searcher Rewards for gift certificates. Join now!</strong></span>			
 		</div>
 			
 		<!-- /HeaderNavigation -->
-	</div>
+	</div>	
 </div>

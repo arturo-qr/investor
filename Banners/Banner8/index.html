@@ -1,0 +1,33 @@
+<!-- Banner -->
+<div style="position: relative; overflow:Hidden; width: 1015px; height: 101px;">
+
+ 	<img id="1" src="Banners/Banner8/wpimages/1.jpg" alt="" style="position: absolute; top: 0; left: 0;" />
+ 	<img id="2" src="Banners/Banner8/wpimages/2.jpg" alt="" style="position: absolute; top: 0; left: 0;" />
+ 	<img id="3" src="Banners/Banner8/wpimages/3.jpg" alt="" style="position: absolute; top: 0; left: 0;" />
+ 	<img id="4" src="Banners/Banner8/wpimages/4.jpg" alt="" style="position: absolute; top: 0; left: 0;" />
+ 	<img id="5" src="Banners/Banner8/wpimages/5.jpg" alt="" style="position: absolute; top: 0; left: 0;" />
+ 	<img id="Bnr2Ovr1" src="Banners/Banner8/wpimages/Bnr2Ovr1.png" alt="" style="position: absolute; top: 0; left: 0px;">
+		<script>
+		$('#1').hide();
+		$('#2').hide();
+		$('#3').hide();
+		$('#4').hide();
+		$('#5').hide();
+		$('#Bnr2Ovr1').hide().animate({top: '+115px'},0,"linear");
+		
+		var x=Math.floor((Math.random()*5)+1);
+	$(function loop(){
+			switch(x){
+				case 1:			$('#1').fadeIn(400);		break;
+				case 2:			$('#2').fadeIn(400);		break;
+				case 3:			$('#3').fadeIn(400);		break;
+				case 4:			$('#4').fadeIn(400);		break;
+				case 5:			$('#5').fadeIn(400);		break;
+			}			
+			$('#Bnr2Ovr1').fadeIn(4).animate({top: '-300px'},18000,"linear").delay(1000).fadeOut(300,loop).animate({top: '+100px'},0,"linear");
+			
+		
+	})();
+
+		</script>	
+</div>

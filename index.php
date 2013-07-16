@@ -1,10 +1,20 @@
 <html>
-	<?php include 'header.php';?>
+	<?php include 'header.php';	
+	?>
 	<title>Investor NeuroMama</title>
 	<body>
-		<?php include 'navigation.php';?>
+		<?php include 'navigation.php';?>	
 		<div id="PageContainerOuter">
+		
 			<div id="PageContainer">
+
+				<div id="HomeGalleryNavigation">
+					
+					<?php
+						include 'Banners/Banner8/index.html'; 
+					?>
+				</div>
+				
 				<div class="inner">
 					<div class="style1">About NeuroMama</div>
 					</br>
@@ -60,6 +70,7 @@
 					</br></br>
 					Some of TVIMama’s viewers, a considerable majority of them if history is any guide, will opt for highly profitable paid subscriptions while the others will receive the programming for free over advertising-supported cable, broadcast and internet networks supported by commercials which should return an equal, if not greater, revenue per viewer from the sales of commercial spots reserved for NeuroMama on each program.
 				</div>
+				
 			</div>
 		</div>
 	</body>

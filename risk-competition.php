@@ -5,6 +5,13 @@
 		<?php include 'navigation.php';?>
 		<div id="PageContainerOuter">
 			<div id="PageContainer">
+				<div id="HomeGalleryNavigation">
+                    
+                    <?php
+                        include 'Banners/Banner8/index.html'; 
+                    ?>
+
+                </div>
 				<div class="inner">
 					<div class="style1">Risk Factors: Competition</div>
 					</br>

@@ -50,7 +50,7 @@ div#HeaderContent{ width: 1050px; margin: 0 auto; height: 180px; background: url
 div#SubHeader{ float: left; margin-left: 150px; margin-top:15px; height: 20px; text-align:center;}
 
 div#HomeGalleryNavigation{ 
-	
+	margin-top:  -10px;
 	margin-left: 1px;
 	/*background: url(../images/Neuromama_Finance.png) center no-repeat;*/
 	

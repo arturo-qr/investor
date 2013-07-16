@@ -5,6 +5,13 @@
 		<?php include 'navigation.php';?>
 		<div id="PageContainerOuter">
 			<div id="PageContainer">
+				<div id="HomeGalleryNavigation">
+                    
+                    <?php
+                        include 'Banners/Banner8/index.html'; 
+                    ?>
+
+                </div>
 				<div class="innerclear">
 					<div class="style1">Manufacturing of Tablets, Smartphone type devises and other accessories</div>
 					</br>
